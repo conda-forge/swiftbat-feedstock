@@ -1,13 +1,13 @@
 {% set name = "swiftbat" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.7" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/swiftbat-{{ version }}.tar.gz
-  sha256: 718fa96638f0de4389a971ea26d4c8c35dddeb1c33562f3486c13d4aa4666a26
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/swiftbat-{{ version }}.tar.gz
+  sha256: 701d882902d0d930ee6f2f781331d4daa97f492f1160e2714893eec5ce776a46
 
 build:
   entry_points:
